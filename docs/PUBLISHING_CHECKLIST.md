@@ -5,7 +5,8 @@ The data DOI is [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figsha
 - [ ] All authors approve public release and confirm the existing MIT code licence.
 - [x] CC BY 4.0 confirmed for author-generated measurements and analysis/plotting tables; third-party rights remain separate.
 - [ ] Review generated response text for personal information and sensitive content before public deposition.
-- [ ] Add GitHub URL, actual release tag and commit hash to the paper and metadata.
+- [x] Record the public code repository in the paper and metadata: [YixiaoXu/LLM_Metacognition](https://github.com/YixiaoXu/LLM_Metacognition).
+- [ ] Select and record the paper's actual frozen release tag and commit hash.
 - [x] Record the author-supplied Figshare data DOI: [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694).
 - [ ] Verify the Figshare record is publicly accessible and its uploaded files match the intended data release.
 - [ ] Archive a fixed code release, then record its real code DOI.

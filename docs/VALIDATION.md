@@ -1,6 +1,6 @@
 # Preparation checks
 
-Prepared locally on 9 October 2026. This package has not been published or assigned a DOI. Manuscript files and experiment estimates were not changed.
+Prepared locally on 9 October 2026. The author subsequently supplied the Figshare data DOI [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694) and confirmed the public [GitHub repository](https://github.com/YixiaoXu/LLM_Metacognition). The original preparation did not change manuscript files or experiment estimates; the publication-link updates change only availability statements, citation and publication metadata. A fixed software release and paper identifier remain separate.
 
 ## Code
 

@@ -20,6 +20,9 @@ Use `configs/local.example.env` as a path template and source your private copy.
 
 ## Original data
 
+Public experimental and analysis code:
+[YixiaoXu/LLM_Metacognition](https://github.com/YixiaoXu/LLM_Metacognition).
+
 The study's result records and available sample-level outputs are deposited in
 [Figshare, 10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694).
 

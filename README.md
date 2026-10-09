@@ -2,6 +2,8 @@
 
 Code accompanying **Evidence for Second-order Internal-state Signals in Large Language Models**.
 
+Public repository: [YixiaoXu/LLM_Metacognition](https://github.com/YixiaoXu/LLM_Metacognition).
+
 Authors: Yixiao Xu, Mohan Li, Yuan Liu and Zhihong Tian. Correspondence: tianzhihong@gzhu.edu.cn.
 
 This prepared repository contains the maintained experimental code, including the fresh-24 direct-report runtime measurement and prefix-replay fixes. It is not the earlier manuscript code snapshot. The associated data record is [Figshare, 10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). Code and paper publication identifiers are tracked separately.
@@ -60,4 +62,4 @@ Code retains the existing MIT licence. Original MathQA, BeaverTails and UltraCha
 
 ## Citation and publication
 
-`CITATION.cff` describes this software and its authors and references the associated data deposit, DOI [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). The software DOI, public repository URL, release tag and paper identifier must be filled from their own publication records. Checklist: `docs/PUBLISHING_CHECKLIST.md`.
+`CITATION.cff` describes this software, its authors and its public GitHub repository, and references the associated data deposit, DOI [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). The software DOI, paper-specific frozen release tag and paper identifier must be filled from their own publication records. Checklist: `docs/PUBLISHING_CHECKLIST.md`.
