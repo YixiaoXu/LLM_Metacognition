@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "models": {
+    "deepseek_llama8b": {
+      "path": "DeepSeek-R1-Distill-Llama-8B",
+      "path_env": "DEEPSEEK_LLAMA8B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "deepseek_qwen7b": {
+      "path": "DeepSeek-R1-Distill-Qwen-7B",
+      "path_env": "DEEPSEEK_QWEN7B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "auto"
+    },
+    "llama2_7b": {
+      "path": "Llama-2-7B-chat",
+      "path_env": "LLAMA2_MODEL_PATH",
+      "dtype": "float16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "llama31_8b": {
+      "path": "Llama-3.1-8B-Instruct",
+      "path_env": "LLAMA31_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "llama32_3b": {
+      "path": "Llama-3.2-3B-Instruct",
+      "path_env": "LLAMA32_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 16,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "qwen25_7b": {
+      "path": "Qwen2.5-7B-Instruct",
+      "path_env": "QWEN25_7B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "qwen25_math7b": {
+      "path": "Qwen2.5-Math-7B-Instruct",
+      "path_env": "QWEN25_MATH7B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "qwen3_4b": {
+      "path": "Qwen3-4B",
+      "path_env": "QWEN3_4B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 16,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "qwen3_8b": {
+      "path": "Qwen3-8B",
+      "path_env": "QWEN3_8B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 12,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "qwen3_0p6b": {
+      "path": "Qwen3-0.6B",
+      "path_env": "QWEN3_0P6B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 4,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "qwen3_1p7b": {
+      "path": "Qwen3-1.7B",
+      "path_env": "QWEN3_1P7B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 4,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "qwen3_14b": {
+      "path": "Qwen3-14B",
+      "path_env": "QWEN3_14B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 1,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "qwen3_32b": {
+      "path": "Qwen3-32B",
+      "path_env": "QWEN3_32B_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 1,
+      "trust_remote_code": true,
+      "chat_template_enable_thinking": "false"
+    },
+    "gemma3_1b_it": {
+      "path": "gemma-3-1b-it",
+      "path_env": "GEMMA3_1B_IT_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 4,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "gemma3_4b_it": {
+      "path": "gemma-3-4b-it",
+      "path_env": "GEMMA3_4B_IT_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 2,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    },
+    "gemma3_12b_it": {
+      "path": "gemma-3-12b-it",
+      "path_env": "GEMMA3_12B_IT_MODEL_PATH",
+      "dtype": "bfloat16",
+      "extraction_batch_size": 1,
+      "trust_remote_code": false,
+      "chat_template_enable_thinking": "auto"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "conditions": [
+    {"dataset": "ultrachat", "target": "llama2_7b", "module_key": "rank_4_k32_m42"},
+    {"dataset": "mathqa", "target": "llama2_7b", "module_key": "rank_8_k32_m20"}
+  ],
+  "report": {
+    "role": "trajectory_confirmatory",
+    "max_rows": 160,
+    "flip_rows": 16,
+    "flip_norm_budget": 0.03,
+    "seed": 7319
+  },
+  "trajectory": {
+    "critical_max_samples": 32,
+    "doses": "0.25 0.5 1.0"
+  },
+  "semantic_audit": {
+    "base_config": "configs/semantic_leakage_audit_v1.json",
+    "fresh_prompt_count": 1200,
+    "minimum_fresh_prompts": 800,
+    "record_steps": [0],
+    "independent_reference_count": 2,
+    "probe_epochs": 30,
+    "bootstrap_samples": 1000
+  }
+}

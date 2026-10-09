@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "report_conditions": [
+    {"dataset": "ultrachat", "target": "llama2_7b"},
+    {"dataset": "mathqa", "target": "llama2_7b"},
+    {"dataset": "beavertails", "target": "llama2_7b"},
+    {"dataset": "mathqa", "target": "llama31_8b"}
+  ],
+  "trajectory_conditions": [
+    {"dataset": "ultrachat", "target": "llama2_7b", "module_key": "rank_4_k32_m42"},
+    {"dataset": "ultrachat", "target": "llama2_7b", "module_key": "rank_7_k32_m1"},
+    {"dataset": "mathqa", "target": "llama2_7b", "module_key": "rank_1_k32_m17"},
+    {"dataset": "mathqa", "target": "llama2_7b", "module_key": "rank_8_k32_m20"},
+    {"dataset": "mathqa", "target": "llama2_7b", "module_key": "rank_16_k32_m19"},
+    {"dataset": "beavertails", "target": "llama2_7b", "module_key": "rank_1_k32_m0"},
+    {"dataset": "beavertails", "target": "llama2_7b", "module_key": "rank_9_k32_m35"},
+    {"dataset": "mathqa", "target": "llama31_8b", "module_key": "rank_13_k32_m61"}
+  ],
+  "report": {
+    "semantic_fit_rows": 1200,
+    "screen_rows": 96,
+    "evaluation_rows": 240,
+    "candidate_neurons": 24,
+    "selected_per_group": 4,
+    "threshold_quantile": 0.5,
+    "flip_rows": 16,
+    "flip_norm_budget": 0.03,
+    "seed": 7319
+  },
+  "trajectory": {
+    "critical_max_samples": 128,
+    "doses": "0.25 0.5 1.0"
+  }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated paper when using this code."
+title: "Second-order Internal-state Signals in Large Language Models"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Xu
+    given-names: Yixiao
+  - family-names: Li
+    given-names: Mohan
+  - family-names: Liu
+    given-names: Yuan
+  - family-names: Tian
+    given-names: Zhihong
+abstract: >-
+  Experimental infrastructure for external semantic alignment, sparse residual
+  module discovery, frozen-module evidence chains, direct activation reports
+  and constrained continuous interventions in language models.

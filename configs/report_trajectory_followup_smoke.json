@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "report_conditions": [
+    {"dataset": "ultrachat", "target": "llama2_7b"}
+  ],
+  "trajectory_conditions": [
+    {"dataset": "ultrachat", "target": "llama2_7b", "module_key": "rank_4_k32_m42"}
+  ],
+  "report": {
+    "semantic_fit_rows": 400,
+    "screen_rows": 60,
+    "evaluation_rows": 100,
+    "candidate_neurons": 8,
+    "selected_per_group": 1,
+    "threshold_quantile": 0.5,
+    "flip_rows": 2,
+    "flip_norm_budget": 0.03,
+    "seed": 7319
+  },
+  "trajectory": {
+    "critical_max_samples": 16,
+    "doses": "0.25 0.5 1.0"
+  }
+}

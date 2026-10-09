@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "conditions": [
+    {
+      "dataset": "mathqa",
+      "target": "llama2_7b",
+      "module_key": "rank_8_k32_m20"
+    },
+    {
+      "dataset": "ultrachat",
+      "target": "llama2_7b",
+      "module_key": "rank_4_k32_m42"
+    }
+  ],
+  "report": {
+    "n_prompts": 80,
+    "semantic_train_rows": 400,
+    "shots_per_label": 2,
+    "dose": 0.5,
+    "max_prefix_tokens": 2048,
+    "max_delta_rel_norm": 0.05,
+    "max_semantic_drift": 0.08,
+    "direct_steps": 12,
+    "random_candidates": 16,
+    "random_semantic_tolerance": 0.03,
+    "random_max_axis_leakage": 0.5,
+    "bootstrap_samples": 1000,
+    "seed": 7319
+  }
+}

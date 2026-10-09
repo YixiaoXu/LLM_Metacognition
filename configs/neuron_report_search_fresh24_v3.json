@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "conditions": "all_pairs",
+  "expected_conditions": 24,
+  "exclude_targets": [],
+  "reuse_completed_root": null,
+  "report": {
+    "semantic_fit_rows": 1200,
+    "screen_a_pool": 160,
+    "candidate_neurons": 256,
+    "semantic_bins": 8,
+    "screen_a_rows": 24,
+    "screen_b_rows": 80,
+    "screen_b_candidates": 24,
+    "finalists": 8,
+    "evaluation_pool_rows": 512,
+    "confirm_rows": 160,
+    "flip_rows": 24,
+    "flip_norm_budget": 0.03,
+    "bootstrap_samples": 400,
+    "replay_mode": "generation_step_kv",
+    "activation_source": "runtime_remeasured",
+    "seed": 7319
+  }
+}

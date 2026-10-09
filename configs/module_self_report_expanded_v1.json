@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/strict_main24_direct_three_ring_20260923_140753",
+  "conditions": [
+    {"dataset": "mathqa", "target": "llama2_7b", "module_key": "rank_8_k32_m20"},
+    {"dataset": "mathqa", "target": "llama31_8b", "module_key": "rank_1_k32_m32"},
+    {"dataset": "mathqa", "target": "llama32_3b", "module_key": "rank_2_k32_m55"},
+    {"dataset": "mathqa", "target": "qwen25_7b", "module_key": "rank_7_k32_m10"},
+    {"dataset": "mathqa", "target": "qwen3_8b", "module_key": "rank_12_k32_m42"},
+    {"dataset": "mathqa", "target": "deepseek_llama8b", "module_key": "rank_1_k32_m58"},
+    {"dataset": "mathqa", "target": "deepseek_qwen7b", "module_key": "rank_3_k32_m21"},
+    {"dataset": "ultrachat", "target": "llama2_7b", "module_key": "rank_4_k32_m42"},
+    {"dataset": "ultrachat", "target": "llama32_3b", "module_key": "rank_6_k32_m47"},
+    {"dataset": "ultrachat", "target": "qwen25_7b", "module_key": "rank_1_k32_m1"},
+    {"dataset": "ultrachat", "target": "qwen3_8b", "module_key": "rank_6_k32_m5"},
+    {"dataset": "ultrachat", "target": "deepseek_llama8b", "module_key": "rank_16_k32_m2"},
+    {"dataset": "ultrachat", "target": "deepseek_qwen7b", "module_key": "rank_2_k32_m4"},
+    {"dataset": "beavertails", "target": "llama2_7b", "module_key": "rank_1_k32_m0"},
+    {"dataset": "beavertails", "target": "llama31_8b", "module_key": "rank_16_k32_m10"},
+    {"dataset": "beavertails", "target": "llama32_3b", "module_key": "rank_13_k32_m2"},
+    {"dataset": "beavertails", "target": "qwen25_7b", "module_key": "rank_7_k32_m3"},
+    {"dataset": "beavertails", "target": "qwen3_8b", "module_key": "rank_15_k32_m28"},
+    {"dataset": "beavertails", "target": "deepseek_llama8b", "module_key": "rank_7_k32_m15"}
+  ],
+  "report": {
+    "n_prompts": 80,
+    "semantic_train_rows": 400,
+    "shots_per_label": 2,
+    "dose": 0.5,
+    "max_prefix_tokens": 2048,
+    "max_delta_rel_norm": 0.05,
+    "max_semantic_drift": 0.08,
+    "direct_steps": 12,
+    "random_candidates": 16,
+    "random_semantic_tolerance": 0.03,
+    "random_max_axis_leakage": 0.5,
+    "bootstrap_samples": 1000,
+    "max_cache_hidden_error": 0.05,
+    "seed": 7319
+  }
+}

@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-metacog"
+version = "0.1.0"
+description = "Continuous semantic-residual metacognition analysis and intervention for language models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yixiao Xu"}, {name = "Mohan Li"}, {name = "Yuan Liu"}, {name = "Zhihong Tian"}]
+keywords = ["mechanistic-interpretability", "metacognition", "language-models"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "torch>=2.2",
+  "transformers>=4.45",
+  "accelerate>=0.33",
+  "datasets>=2.20",
+  "safetensors>=0.4",
+  "tqdm>=4.66",
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+data = ["pyarrow>=14"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+metacog = "metacog.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["metacog*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["code_backup_*", "scripts_backup_*", "backups", "runs"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

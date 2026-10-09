@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "source_root": "runs/full_main_ablation_exact_once_20260824_132401",
+  "task_patterns": ["main_*"],
+  "maximum_modules": 0,
+  "fresh_prompt_count": 6000,
+  "minimum_fresh_prompts": 3000,
+  "data_paths": {},
+  "additional_exclusion_jsonl": [],
+  "seed": 7319,
+  "train_fraction": 0.4,
+  "validation_fraction": 0.2,
+  "record_steps": [0, 4, 8, 12, 16, 20],
+  "bound_steps": [0],
+  "min_bound_prompts": 200,
+  "target_extraction_batch_size": 4,
+  "semantic_extraction_batch_size": 8,
+  "encode_batch_size": 1024,
+  "cpu_threads": 4,
+  "independent_reference_count": 2,
+  "audit_references": [
+    {"model": "qwen3_1p7b", "layer_fractions": [0.5, 0.75]},
+    {"model": "llama32_3b", "layer_fractions": [0.5, 0.75]},
+    {"model": "qwen3_4b", "layer_fractions": [0.5, 0.75]}
+  ],
+  "bins": 4,
+  "probability_floor": 0.001,
+  "alpha": 0.05,
+  "bootstrap_samples": 2000,
+  "density_kl_budgets_bits": [0.0, 0.01, 0.025, 0.05, 0.1, 0.2, 0.5],
+  "assumed_density_kl_budget_bits": null,
+  "probes": {
+    "families": ["linear", "mlp", "deep_residual", "ensemble"],
+    "epochs": 40,
+    "patience": 10,
+    "hidden_dim": 256,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 512,
+    "device": "cuda"
+  }
+}
