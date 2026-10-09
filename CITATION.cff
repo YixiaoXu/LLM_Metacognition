@@ -17,3 +17,18 @@ abstract: >-
   Experimental infrastructure for external semantic alignment, sparse residual
   module discovery, frozen-module evidence chains, direct activation reports
   and constrained continuous interventions in language models.
+references:
+  - type: data
+    title: "Evidence for Second-order Internal-state Signals in Large Language Models: source results and sample-level outputs"
+    authors:
+      - family-names: Xu
+        given-names: Yixiao
+      - family-names: Li
+        given-names: Mohan
+      - family-names: Liu
+        given-names: Yuan
+      - family-names: Tian
+        given-names: Zhihong
+    year: 2026
+    doi: "10.6084/m9.figshare.34310694"
+    url: "https://doi.org/10.6084/m9.figshare.34310694"

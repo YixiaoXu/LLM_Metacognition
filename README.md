@@ -4,7 +4,7 @@ Code accompanying **Evidence for Second-order Internal-state Signals in Large La
 
 Authors: Yixiao Xu, Mohan Li, Yuan Liu and Zhihong Tian. Correspondence: tianzhihong@gzhu.edu.cn.
 
-This prepared repository contains the maintained experimental code, including the fresh-24 direct-report runtime measurement and prefix-replay fixes. It is not the earlier manuscript code snapshot. No code, dataset or paper DOI has been assigned by this preparation step.
+This prepared repository contains the maintained experimental code, including the fresh-24 direct-report runtime measurement and prefix-replay fixes. It is not the earlier manuscript code snapshot. The associated data record is [Figshare, 10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). Code and paper publication identifiers are tracked separately.
 
 ## What is included
 
@@ -30,7 +30,7 @@ Full experiments additionally require Linux, compatible CUDA/PyTorch and locally
 
 ## Inspect results without a GPU
 
-Download and extract the separate `research_data.zip`, then run:
+Download `research_data.zip` from [Figshare](https://doi.org/10.6084/m9.figshare.34310694), extract it, then run:
 
 ```bash
 python scripts/validate_deposit.py /path/to/research_data
@@ -60,4 +60,4 @@ Code retains the existing MIT licence. Original MathQA, BeaverTails and UltraCha
 
 ## Citation and publication
 
-`CITATION.cff` describes this software and its authors. Public repository URL, DOI, release tag and paper identifier must be filled after publication; none is invented here. Checklist: `docs/PUBLISHING_CHECKLIST.md`.
+`CITATION.cff` describes this software and its authors and references the associated data deposit, DOI [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). The software DOI, public repository URL, release tag and paper identifier must be filled from their own publication records. Checklist: `docs/PUBLISHING_CHECKLIST.md`.

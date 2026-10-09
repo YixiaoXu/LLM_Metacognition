@@ -1,12 +1,13 @@
 # Publication checklist
 
-This is a local prepared release, not a published repository or assigned DOI.
+The data DOI is [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694). Software and paper publication identifiers are separate.
 
 - [ ] All authors approve public release and confirm the existing MIT code licence.
 - [x] CC BY 4.0 confirmed for author-generated measurements and analysis/plotting tables; third-party rights remain separate.
 - [ ] Review generated response text for personal information and sensitive content before public deposition.
 - [ ] Add GitHub URL, actual release tag and commit hash to the paper and metadata.
-- [ ] Create and publish the data deposit, then record its real DOI.
+- [x] Record the author-supplied Figshare data DOI: [10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694).
+- [ ] Verify the Figshare record is publicly accessible and its uploaded files match the intended data release.
 - [ ] Archive a fixed code release, then record its real code DOI.
 - [ ] Fill `CITATION.cff` URL, DOI and release date from actual publication information.
 - [ ] Complete model/dataset revision identifiers and the historical server environment lockfile if available.

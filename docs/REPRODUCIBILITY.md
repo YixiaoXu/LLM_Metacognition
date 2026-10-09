@@ -20,6 +20,9 @@ Use `configs/local.example.env` as a path template and source your private copy.
 
 ## Original data
 
+The study's result records and available sample-level outputs are deposited in
+[Figshare, 10.6084/m9.figshare.34310694](https://doi.org/10.6084/m9.figshare.34310694).
+
 Original datasets and input text are not bundled. Obtain them from their original providers under their own terms, then configure:
 
 | Dataset | Expected source configured by the runner | Preparation |
